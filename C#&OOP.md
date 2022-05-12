@@ -30,4 +30,9 @@ Unmanage : Code written in c, c++ is that execute directly on OS.
 1. Constant : Value type + Initalize at Compile Time
 2. Read Only : Reference type + Initalize at Run Time
 
+# Stack Vs Heap.
+1. Stack stored value types.
+2. Heap stored reference types.
+
+
 
