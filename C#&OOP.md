@@ -1,7 +1,7 @@
 # Tell me about you self?
 My name is Muhammad Abdullah and I'm a Software  Engineer with 6 years of experience in Creating
 1. Web application
-2.SaaS Solutions
+2. SaaS Solutions
 3. MVPs for startups & companies
 
 Using different technologies like
