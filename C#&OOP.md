@@ -34,12 +34,18 @@ Unmanage : Code written in c, c++ is that execute directly on OS.
 1. Stack stored value types.
 2. Heap stored reference types.
 
+Ref VS Out
+1. Ref:  The parameter or argument must be initialization first before it is passed to ref.
+2. Out:  It is compulsory to initialize a parameter or argument before it is passed to an out
+
+
 # Inheritance
 Same object with different behavior . we use inheritance to increase reusibiltiy, extendibility, and modify.
 
 # Interface Vs Abstract Class
 1. Abstract Class : only allows other classes to inherit from it but cannot be instantiated. In other words its a contract that defines specific set of methods and their arguments.
-2. Interface :  interfaces are used to implement multiple inheritance
+2. Interface :  interfaces are used to implement multiple inheritance.
+
 The main difference between them is that a class can implement more than one interface but can only inherit from one abstract class. 
 
 
