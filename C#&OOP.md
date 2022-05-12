@@ -48,6 +48,13 @@ Same object with different behavior . we use inheritance to increase reusibiltiy
 
 The main difference between them is that a class can implement more than one interface but can only inherit from one abstract class. 
 
+# Delegates
+A obA=new A();
+Here, the object reference obA points to an object of A. Similar to this, delegates 
+are reference types, but the key difference is that they point to methods. Simply put, 
+a delegate is an object that knows how to invoke a method. A delegate derives from 
+System.Delegate class
+
 
 
 
