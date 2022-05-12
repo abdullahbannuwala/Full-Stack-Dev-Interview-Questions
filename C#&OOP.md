@@ -27,7 +27,7 @@ Managed : Code writen in C# , that need Common language runtime is called manage
 Unmanage : Code written in c, c++ is that execute directly on OS.
 
 # Constants Vs Read-only
-Constant : Value type + Initalize at Compile Time
-Read Only : Reference type + Initalize at Run Time
+1. Constant : Value type + Initalize at Compile Time
+2. Read Only : Reference type + Initalize at Run Time
 
 
