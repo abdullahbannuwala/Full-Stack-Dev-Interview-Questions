@@ -84,7 +84,25 @@ Boxing : Converting value type to reference type.
 Unboxing : Converting reference type to value type.
 
 # Performance durring boxing and unboxing?
-avoid boxing altogether by using generics and avoid method overloads with object parameters in their signature.
+1. Boxed value type objects take up more memory.
+2. Boxed value type objects require an additional read
+3. Boxing and unboxing operations consume CPU & time.
+
+# How to prevent boxing & unboxing:
+1. Use ToString method of numeric data types such as int, double, float etc.
+2. Use for loop to enumerate on value type arrays or lists (do not use foreach loop or LINQ queries)
+3. Use for loop to enumerate on characters of string (do not use foreach loop or LINQ queries)
+4. If you define your own value type then override implementation of basic object methods.
+5. Don’t assign value type instance to object unless unavoidable
+6. Use generic List<>, Dictionary<> (et al) instead of ArrList & HashTable.
+7. Use Nullable<> value types (examples int?, float? etc)
+8. When using string.Format (SrtingBuilder.AppendFormat) or similar API’s that use ‘params object[]’ pass on value type objects by calling ‘ToString()’ method.
+
+# Convert.toString and .toString () method?
+Convert" function handles NULLS, while "i.ToString()" does not it will throw a NULL reference exception error. So as good coding practice using "convert" is always safe.
+
+# String Vs string?
+"string" is just an alias of System.String
 
 # Inheritance
 Same object with different behavior . we use inheritance to increase reusibiltiy, extendibility, and modify.
