@@ -30,13 +30,35 @@ Unmanage : Code written in c, c++ is that execute directly on OS.
 1. Constant : Value type + Initalize at Compile Time
 2. Read Only : Reference type + Initalize at Run Time
 
+# Reflection 
+1. The process of describing the metadata of types, methods and fields in a code. 
+2. System.Reflection enables you to obtain data about the loaded assemblies, the elements within them like classes, methods and value types. 
+
+# Why refection?
+1. To get all global and non-global methods defined in the module.
+2. To get method info to look at information such as parameters, name, return type, access modifiers and implementation details.
+3. To get event info to find out the event-handler data type, the name, declaring type and custom attributes.
+4. To get Constructor Info parameters, access modifiers, and implementation details of a constructor.
+5. To get property info.
+
+
+# Dynamic keyword
+1. Skip type-checking at compiler time.
+2. Delay type-checking until runtime.
+
+# Reflection Vs Dynamic?
+1. Both used when we want to operate on an object during runtime.
+2. Reflection can invoke both public and private members of an object while dynamic can only invoke public members.
+3. Dynamic is instance specific: you don't have access to static members; you have to use Reflection in those scenarios.
+
 # Stack Vs Heap.
 1. Stack stored value types.
 2. Heap stored reference types.
 
 Ref VS Out
 1. Ref:  The parameter or argument must be initialization first before it is passed to ref.
-2. Out:  It is compulsory to initialize a parameter or argument before it is passed to an out
+2. Out:  It is compulsory to initialize a parameter or argument before it is passed to an out.
+
 
 
 # Inheritance
