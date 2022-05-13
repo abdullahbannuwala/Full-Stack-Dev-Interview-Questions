@@ -18,9 +18,7 @@ I recently completed google project management certification from google. & Top 
 
 
 
-# Differentiate between Boxing and Unboxing?
-Boxing : Converting value type to reference type. 
-Unboxing : Converting reference type to value type.
+
 
 # Managed and unmanaged code.
 Managed : Code writen in C# , that need Common language runtime is called managed code. We cant execute this code directly on OS.
@@ -80,6 +78,13 @@ Converting one type of data to another type is call type Casting or type safty.
 # Stack Vs Heap.
 1. Stack stored value types + Last In First Out + Access is fast + Variables can’t be Resized
 2. Heap stored reference types. + Any Order + Access is Slow + Variables can be Resized
+
+# Differentiate between Boxing and Unboxing?
+Boxing : Converting value type to reference type. 
+Unboxing : Converting reference type to value type.
+
+# Performance durring boxing and unboxing?
+avoid boxing altogether by using generics and avoid method overloads with object parameters in their signature.
 
 # Inheritance
 Same object with different behavior . we use inheritance to increase reusibiltiy, extendibility, and modify.
