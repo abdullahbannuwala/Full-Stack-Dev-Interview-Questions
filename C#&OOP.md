@@ -26,9 +26,6 @@ Unboxing : Converting reference type to value type.
 Managed : Code writen in C# , that need Common language runtime is called managed code. We cant execute this code directly on OS.
 Unmanage : Code written in c, c++ is that execute directly on OS.
 
-# Stack Vs Heap.
-1. Stack stored value types.
-2. Heap stored reference types.
 
 Ref VS Out
 1. Ref:  The parameter or argument must be initialization first before it is passed to ref.
@@ -75,6 +72,14 @@ when an object is assigned to an object variable. They C# compiler perform a pro
 1. var : should be initialized at the time of declaration. It cannot be used for properties or returning values from the function. It can only used as a local variable in function.
 2. Dynamic : The variable of this type need not be initialized at the time of declaration. Because the compiler does not know the type of the variable at compile time.It can be used for properties or returning values from the function.
 
+# Type safety and casting in C#?
+Converting one type of data to another type is call type Casting or type safty.
+1. Implicit type conversion:  conversions from smaller to larger integral types and conversions from derived classes to base classes.
+2. Explicit type conversion:  These conversions are done explicitly by users using the pre-defined functions. Explicit conversions require a cast operator.
+
+# Stack Vs Heap.
+1. Stack stored value types + Last In First Out + Access is fast + Variables can’t be Resized
+2. Heap stored reference types. + Any Order + Access is Slow + Variables can be Resized
 
 # Inheritance
 Same object with different behavior . we use inheritance to increase reusibiltiy, extendibility, and modify.
