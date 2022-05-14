@@ -102,7 +102,29 @@ Unboxing : Converting reference type to value type.
 Convert" function handles NULLS, while "i.ToString()" does not it will throw a NULL reference exception error. So as good coding practice using "convert" is always safe.
 
 # String Vs string?
-"string" is just an alias of System.String
+1. string : keywork where String is class.
+2. String : Accessing string static methods like String.Format(), String.Compare() etc.
+3. string map to System.String. like long to System.Int64 & int maps to System.Int32.
+
+# How can we handle exceptions in .NET?
+Try : (Suspected Code)
+Catch : logging and auditing an exception
+Finally : used to release resources + executed whether an exception raised or not.
+
+# What if we do not catch the exception?
+If you not catch the exception then the application will be crash.
+
+# System level exception Vs   Application level exceptions?
+1. System level : System.SystemException + database crash, bound errors etc. +  No Handing + thrown by the .NET Common Language Runtime
+2. Application level : System.ApplicationException  + wrong type of input data, arithmetic exceptions etc. + try-catch blocks +  thrown when a recoverable error has occurred
+
+# Can two catch blocks be executed?
+No, multiple catch blocks cannot be executed. Once first catch block is catched, it will not read the next block.
+
+# Exception filters OR How can I know from which source the exception occurred?
+1. Allows us to specify condition along with a catch block. 
+2. catch (ArgumentException e) when (e.ParamName == "?"){  }   
+3. A catch block will execute only when the condition is true. If the condition is false, catch block is skipped and compiler search for next catch handler.
 
 # Inheritance
 Same object with different behavior . we use inheritance to increase reusibiltiy, extendibility, and modify.
