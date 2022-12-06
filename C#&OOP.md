@@ -25,7 +25,7 @@ Managed : Code writen in C# , that need Common language runtime is called manage
 Unmanage : Code written in c, c++ is that execute directly on OS.
 
 
-Ref VS Out
+# Ref VS Out
 1. Ref:  The parameter or argument must be initialization first before it is passed to ref.
 2. Out:  It is compulsory to initialize a parameter or argument before it is passed to an out.
 
