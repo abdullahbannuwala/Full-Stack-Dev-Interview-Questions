@@ -21,8 +21,8 @@ I recently completed google project management certification from google. & Top 
 
 
 # Managed and unmanaged code.
-Managed : Code writen in C# , that need Common language runtime is called managed code. We cant execute this code directly on OS.
-Unmanage : Code written in c, c++ is that execute directly on OS.
+Managed : Executed by CLR ( Common Language Runtime)
+Unmanage : Executed directly by the operating system.
 
 
 # Ref VS Out
