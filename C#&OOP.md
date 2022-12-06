@@ -26,8 +26,8 @@ Unmanage : Code written in c, c++ is that execute directly on OS.
 
 
 # Ref VS Out
-1. Ref:  The parameter or argument must be initialization first before it is passed to ref.
-2. Out:  It is compulsory to initialize a parameter or argument before it is passed to an out.
+1. Ref:  Initialize then pass
+2. Out:  Initilazation not needed.
 
 # Constants Vs Read-only
 1. Constant : Value type + Initalize at Compile Time
