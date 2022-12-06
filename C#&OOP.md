@@ -35,10 +35,10 @@ Unmanage : Executed directly by the operating system.
 
 # Reflection 
 1. The process of describing the metadata of types, methods and fields in a code. 
-2. System.Reflection enables you to obtain data about the loaded assemblies, the elements within them like classes, methods and value types. 
+2. System.Reflection
 
 # Why refection?
-1. To get all global and non-global methods defined in the module.
+1. To get all global and non-global methods.
 2. To get method info to look at information such as parameters, name, return type, access modifiers and implementation details.
 3. To get event info to find out the event-handler data type, the name, declaring type and custom attributes.
 4. To get Constructor Info parameters, access modifiers, and implementation details of a constructor.
